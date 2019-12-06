@@ -77,14 +77,19 @@ p {
 .nav-wrapper {
     display: flex; 
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     width: 100%; 
+    margin-bottom: 3vh; 
      
 }
 .nav-wrapper a {
     text-decoration: none; 
     color: gray; 
     margin-right: 4.5%; 
+    align-self: flex-end; 
+}
+.nav-wrapper img {
+    align-self: center; 
 }
 
 
@@ -130,6 +135,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box.one {
+    background: teal; 
+}
+.middle-content .boxes .box.two {
+    background: gold; 
+}
+.middle-content .boxes .box.three {
+    background: cadetblue; 
+}
+.middle-content .boxes .box.four {
+    background: coral; 
+}
+.middle-content .boxes .box.five {
+    background: crimson; 
+}
+.middle-content .boxes .box.six {
+    background: forestgreen; 
+}
+.middle-content .boxes .box.seven {
+    background: darkorchid; 
+}
+.middle-content .boxes .box.eight {
+    background: hotpink; 
+}
+.middle-content .boxes .box.nine {
+    background: indigo; 
+}
+.middle-content .boxes .box.ten {
+    background: dodgerblue; 
+}
+
 
 .bottom-content {
     display: flex;
