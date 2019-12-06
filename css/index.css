@@ -211,36 +211,40 @@ footer nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-.top-content .text-container-about {
+.top-content-about .text-container-about {
+    padding: 0 2%; 
     padding-bottom: 20px; 
     
 }
-.top-content .text-container-about p {
-    margin-bottom: 5vh; 
-}
 
 .grid-boxes {
-    height: 130vh; 
+    height: 129vh; 
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-content: space-around;
-    margin-bottom: 7vh; 
+    align-content: space-evenly;
+    margin-bottom: 4vh; 
 }
 .about-box {
     display: flex;
     flex-direction: column;
     justify-content: space-around; 
-    width: 47%; 
-    height: 63vh; 
+    width: 48%; 
+    height: 61vh; 
     border-bottom: 1px dashed black; 
- 
 }
+
 
 .about-box button {
     width: 30%; 
     height: 4vh; 
     border-radius: 5.5px; 
     border: 2px solid black; 
-    margin-bottom: 2vh; 
+    font-size: .8em; 
+  
+}
+.bottom-content-about {
+    display: flex; 
+    flex-direction: column; 
+    height: 18vh; 
 }
